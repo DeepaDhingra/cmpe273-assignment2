@@ -1,6 +1,7 @@
 # cmpe273-assignment2
 Description : This is a location finder service in Go.
 Technical Description: REST service, DataBase: Mongodb (CRUD Operations)
+
 CRUD Location Service [Requirement]
 
 The location service has following REST endpoints to store and retrieve locations. All the data must be persisted into MongoDB. 
@@ -21,6 +22,8 @@ In Content to send tab: Content Type : application/json
 In Headers tab: Name: Content-type Value: application/json
 click on Add/Change button to add the above said properties.
 Following is the example of one of the test cases:
+
+
 1) Create New Location - POST 
 
 Request:
@@ -32,6 +35,8 @@ URL: http://localhost:8080/locations
    "state" : "CA",
    "zip" : "94113"
 }
+
+
 Response: 
 {"id":"562c68d5a02cc51e1457cb66","name":"John Smith","address":"123 Main St","city":"San Francisco","state":"CA","zip":"94113","Coordinate":{"lat":37.7917618,"lng":-122.3943405}}
 
@@ -41,6 +46,8 @@ HTTP Response Code: 201
 2) Get a Location - GET/locations/{location_id}
 Request: URL
 URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
+
+
 Response: 
 {"id":"562c68d5a02cc51e1457cb66","name":"John Smith","address":"123 Main St","city":"San Francisco","state":"CA","zip":"94113","Coordinate":{"lat":37.7917618,"lng":-122.3943405}}
 Please observer the Response Code as 200
@@ -48,6 +55,7 @@ HTTP Response Code: 200
 
 3) Update a Location - PUT /locations/{location_id}
 URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
+
 Request: {
    "address" : "1600 Amphitheatre Parkway",
    "city" : "Mountain View",
