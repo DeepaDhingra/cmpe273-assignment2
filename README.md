@@ -26,9 +26,11 @@ Following is the example of one of the test cases:
 
 1) Create New Location - POST 
 
-Request:
 
          URL: http://localhost:8080/locations
+         
+Request:
+
 {
    "name" : "John Smith",
    "address" : "123 Main St",
