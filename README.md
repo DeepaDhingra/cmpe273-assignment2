@@ -27,6 +27,7 @@ Following is the example of one of the test cases:
 1) Create New Location - POST 
 
 Request:
+
 URL: http://localhost:8080/locations
 {
    "name" : "John Smith",
@@ -46,6 +47,7 @@ HTTP Response Code: 201
 
 2) Get a Location - GET/locations/{location_id}
 Request: URL
+
 URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
 
 
@@ -55,6 +57,7 @@ Please observe the Response Code as 200
 HTTP Response Code: 200
 
 3) Update a Location - PUT /locations/{location_id}
+
 URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
 
 Request: {
@@ -72,5 +75,6 @@ HTTP Response Code: 201
 
 4) Delete a Location - DELETE /locations/{location_id}
 Request: URL
+
 URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
 Response: HTTP Response Code: 200
