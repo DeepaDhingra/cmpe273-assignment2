@@ -40,7 +40,8 @@ URL: http://localhost:8080/locations
 Response: 
 {"id":"562c68d5a02cc51e1457cb66","name":"John Smith","address":"123 Main St","city":"San Francisco","state":"CA","zip":"94113","Coordinate":{"lat":37.7917618,"lng":-122.3943405}}
 
-Please observer the Response Code as 201
+Please observe the Response Code as 201
+
 HTTP Response Code: 201
 
 2) Get a Location - GET/locations/{location_id}
@@ -50,7 +51,7 @@ URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during
 
 Response: 
 {"id":"562c68d5a02cc51e1457cb66","name":"John Smith","address":"123 Main St","city":"San Francisco","state":"CA","zip":"94113","Coordinate":{"lat":37.7917618,"lng":-122.3943405}}
-Please observer the Response Code as 200
+Please observe the Response Code as 200
 HTTP Response Code: 200
 
 3) Update a Location - PUT /locations/{location_id}
