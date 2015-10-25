@@ -48,7 +48,7 @@ HTTP Response Code: 201
 2) Get a Location - GET/locations/{location_id}
 Request: URL
 
-URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
+                  URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
 
 
 Response: 
@@ -58,7 +58,7 @@ HTTP Response Code: 200
 
 3) Update a Location - PUT /locations/{location_id}
 
-URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
+                  URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
 
 Request: {
    "address" : "1600 Amphitheatre Parkway",
@@ -76,5 +76,5 @@ HTTP Response Code: 201
 4) Delete a Location - DELETE /locations/{location_id}
 Request: URL
 
-URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
+                  URL: http://localhost:8080/locations/562c68d5a02cc51e1457cb66 (Id created during POST operation)
 Response: HTTP Response Code: 200
