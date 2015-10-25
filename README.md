@@ -28,7 +28,7 @@ Following is the example of one of the test cases:
 
 Request:
 
-URL: http://localhost:8080/locations
+         URL: http://localhost:8080/locations
 {
    "name" : "John Smith",
    "address" : "123 Main St",
