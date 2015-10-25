@@ -67,7 +67,7 @@ Request: {
 Response: 
 {"id":"562c68d5a02cc51e1457cb66","name":"John Smith","address":"1600 Amphitheatre Parkway","city":"Mountain View","state":"CA","zip":"94043","Coordinate":{"lat":37.4220352,"lng":-122.0841244}}
 
-Please observer the Response Code as 201
+Please observe the Response Code as 201
 HTTP Response Code: 201
 
 4) Delete a Location - DELETE /locations/{location_id}
